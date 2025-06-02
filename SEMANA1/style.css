@@ -1,0 +1,43 @@
+/*seletor tag*/
+body{
+    background-color:azure;
+    margin: 30px;
+}
+h1 {
+    color: hsla(215, 40%, 19%, 1);;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    padding: 40px;
+    
+}
+
+a:hover {
+    color: blueviolet;
+    text-decoration-color: hsla(208, 31%, 35%, 1);;
+    
+
+}
+
+/* seletor classe */
+
+.listas {
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: brown;
+}
+
+.links {
+    padding: 30px;
+}
+
+/* seletor id */
+
+#titulo3 {
+    text-align: center;
+    background-color: aquamarine;
+
+}

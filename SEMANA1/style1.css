@@ -1,0 +1,33 @@
+body{
+    margin: 5% 20px;
+    padding: 5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 1px solid #000
+    
+}
+
+.nome{
+    border: 10px;
+    text-align: center;
+    
+    
+}
+
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 500;
+    font-size: 46px;
+}
+
+h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-size: 18px;
+    color: rgb(12, 1, 71);
+}
+
+
+.iten_lista_abil{
+    padding: 10px;
+    
+}

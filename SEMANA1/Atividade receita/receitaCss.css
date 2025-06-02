@@ -1,0 +1,69 @@
+body {
+    background-color: bisque;
+    margin: 30px;
+    border: 3px black solid;
+    border-radius: 20px;
+    padding: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.grid-header {
+  display: grid;
+  grid-template-columns: 1fr 150px; /* 1 coluna flexível e 1 para a imagem */
+  align-items: center; /* Alinha verticalmente os elementos */
+  gap: 20px; /* Espaço entre o título e a imagem */
+  padding: 10px;
+  background-color: #fdf5e6;
+}
+
+.grid-header h1 {
+  margin: 0;
+  font-size: 2rem;
+  color: #a0522d;
+}
+
+.container img {
+  width: 100%; /* Ajusta à coluna reservada */
+  border-radius: 8px;
+}
+
+
+.video{
+    text-align: center;
+}
+
+article {
+    background-color: rgb(118, 118, 176);
+    height: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr;
+}
+
+main {
+    background-color: rgb(2, 31, 158);
+    height: 80%;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    gap: 5px;
+
+}
+
+/* até 480px*/
+@media screen and(min-width: 480px) {
+    main {
+    height: 80%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+
+
+}
+article {
+    background-color: rgb(118, 118, 176);
+    height: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr;
+}
+}
