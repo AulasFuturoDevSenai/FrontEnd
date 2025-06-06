@@ -1,8 +1,8 @@
-const letra = prompt('Digite a letra correspondente ao a nota do aluno "Conceito": ');
+const conceito = prompt('Digite a letra correspondente ao a nota do aluno "Conceito": ');
 
-const letraAjustada = letra.toUpperCase();
+const conceitoAjustada = conceito.toUpperCase();
 
-switch (letraAjustada) {
+switch (conceitoAjustada) {
     case "A":
         console.log('Excelente');
         break;
@@ -20,6 +20,6 @@ switch (letraAjustada) {
         break;
     
     default:
-        console.log('Conceito inválido')
+        console.error('Conceito inválido')
         break;
 }
