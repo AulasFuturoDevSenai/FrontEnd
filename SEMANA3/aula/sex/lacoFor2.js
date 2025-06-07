@@ -20,3 +20,5 @@ if (isNaN(numero) || numero < 0) {
 
     console.log(`O fatorial de ${numero} é ${fatorial}.`);
 }
+
+
